@@ -31,7 +31,7 @@ module.exports = function (app) {
         res.json(newNote);
     });
 
-    // Function to delete notes when trash can is clicked
+    // Function to delete notes when trash can is click
     app.delete("/api/notes/:id", function (req, res) {
         let chosenId = parseInt(req.params.id);
         for (let i = 0; i < noteContents.length; i++) {
