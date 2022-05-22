@@ -15,7 +15,7 @@ module.exports = function (app) {
     })
 
     // Posts new notes to the JSON file when entered and saved
-    // Had trouble setting the new Id number - this seems to work correctly on heroku -but not on my localhost
+    // struggling to figure out the ID on localhost instances
     app.post("/api/notes", function (req, res) {
         let newNote = req.body;
         let lastId = 0;
