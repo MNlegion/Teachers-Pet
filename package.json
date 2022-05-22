@@ -4,7 +4,8 @@
   "description": "Test",
   "main": "server.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -22,5 +23,6 @@
   "homepage": "https://github.com/MNlegion/Teachers-Pet#readme",
   "devDependencies": {
     "jest": "^28.1.0"
-  }
+  },
+  "keywords": []
 }
