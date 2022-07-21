@@ -1,8 +1,23 @@
 <h1 align='center'>Teacher's Pet</h1>
 
+
+## Table of Contents
+- [Description](#description)
+- [User Story](#user-story)
+- [Acceptance Criteria](#acceptance-criteria)
+- [Installation](#install)
+- [License](#license)
+- [Contributers](#contributers)
+- [Tests](#tests)
+- [Questions](#questions)
+
 ![license](https://img.shields.io/badge/license-MIT-informational)
 ## Description
-A node.js and express.js application that allows for user input to create,store and delete notes.
+A node.js and express.js application that allows for user input to create, store, and delete notes.
+
+Check out the deployed app on Heroku here: [Note Taker](https://mysterious-bayou-11300.herokuapp.com/)
+
+![screenshot](./public/assets/images/Screenshot%202022-07-21%20141119.png)
 
 ## User Story
 - AS A small business owner
@@ -14,7 +29,7 @@ A node.js and express.js application that allows for user input to create,store 
 - WHEN I open the Note Taker
 - THEN I am presented with a landing page with a link to a notes page
 - WHEN I click on the link to the notes page
-- THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column
+- THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand     column
 - WHEN I enter a new note title and the note’s text
 - THEN a Save icon appears in the navigation at the top of the page
 - WHEN I click on the Save icon
@@ -23,15 +38,6 @@ A node.js and express.js application that allows for user input to create,store 
 - THEN that note appears in the right-hand column
 - WHEN I click on the Write icon in the navigation at the top of the page
 - THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
-
-## Table of Contents
-- [Description](#description)
-- [Installation](#install)
-- [Utility](#utility)
-- [License](#license)
-- [Contributers](#contributers)
-- [Tests](#tests)
-- [Questions](#questions)
 
 ## Installation
 - npm init 
